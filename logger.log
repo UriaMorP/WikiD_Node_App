@@ -1,0 +1,81 @@
+[2016-03-05 13:50:31.098] [INFO] console - req.body undefined
+[2016-03-05 13:50:48.145] [INFO] console - req.body undefined
+[2016-03-05 13:52:30.835] [INFO] console - req.body undefined
+[2016-03-05 13:52:39.188] [INFO] console - req.body undefined
+[2016-03-05 13:54:15.920] [INFO] console - req.body undefined
+[2016-03-05 13:56:15.912] [INFO] console - req.body undefined
+[2016-03-05 13:57:12.323] [INFO] console - req.body { email: '', password: '' }
+[2016-03-05 13:57:22.013] [INFO] console - req.body { email: 'sdf', password: 'adswhwrth' }
+[2016-03-05 15:11:47.234] [ERROR] console - ReferenceError: email is not defined
+    at signup (/home/uria/wikid_node_react/api/user/access.js:9:11)
+    at Layer.handle [as handle_request] (/home/uria/wikid_node_react/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/uria/wikid_node_react/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/home/uria/wikid_node_react/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/uria/wikid_node_react/node_modules/express/lib/router/layer.js:95:5)
+    at /home/uria/wikid_node_react/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/home/uria/wikid_node_react/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/uria/wikid_node_react/node_modules/express/lib/router/index.js:271:10)
+    at next (/home/uria/wikid_node_react/node_modules/express/lib/router/route.js:121:14)
+    at next (/home/uria/wikid_node_react/node_modules/express/lib/router/route.js:125:14)
+[2016-03-05 15:13:33.406] [INFO] console - new mail address
+[2016-03-05 15:14:00.924] [INFO] console - new mail address
+[2016-03-05 15:14:52.019] [INFO] console - qwe@sdf.com
+[2016-03-05 15:14:52.033] [INFO] console - new mail address
+[2016-03-05 15:15:19.025] [INFO] console - qwe@sdf.com
+[2016-03-05 15:15:22.502] [INFO] console - qwe@sdf.com
+[2016-03-05 15:16:27.485] [INFO] console - qwe@sdf.com
+[2016-03-05 15:16:42.175] [INFO] console - qwe@sdf.com
+[2016-03-05 15:17:02.638] [INFO] console - qwe@sdf.com
+[2016-03-05 15:17:41.236] [INFO] console - qwe@sdf.com
+[2016-03-05 15:17:42.768] [INFO] console - qwe@sdf.com
+[2016-03-05 15:18:23.991] [INFO] console - qwe@sdf.com
+[2016-03-05 15:18:25.559] [INFO] console - qwe@sdf.com
+[2016-03-05 15:18:59.931] [INFO] console - qwe@sdf.com
+[2016-03-05 15:19:21.006] [INFO] console - qwe@sdf.com
+[2016-03-05 15:19:28.162] [INFO] console - qwe@sdf.com
+[2016-03-05 15:19:28.894] [INFO] console - qwe@sdf.com
+[2016-03-05 15:20:01.111] [INFO] console - qwe@sdf.com
+[2016-03-05 15:20:04.343] [INFO] console - qwe@sdf.com
+[2016-03-05 15:20:37.157] [INFO] console - qwe@sdf.com
+[2016-03-05 15:21:15.894] [INFO] console - qwe@sdf.com
+[2016-03-05 15:21:22.841] [INFO] console - qwe@sdf.com
+[2016-03-05 15:21:23.030] [INFO] console - qwe@sdf.com
+[2016-03-05 15:22:05.998] [INFO] console - qwe@sdf.com
+[2016-03-05 15:22:06.633] [INFO] console - qwe@sdf.com
+[2016-03-05 15:22:07.080] [INFO] console - qwe@sdf.com
+[2016-03-05 15:22:07.260] [INFO] console - qwe@sdf.com
+[2016-03-05 15:22:07.625] [INFO] console - qwe@sdf.com
+[2016-03-05 15:22:07.815] [INFO] console - qwe@sdf.com
+[2016-03-05 15:22:22.884] [INFO] console - qwe@sdf.com
+[2016-03-05 15:23:08.578] [INFO] console - qwe@sdf.com
+[2016-03-05 15:23:22.382] [INFO] console - qwe@sdf.com
+[2016-03-05 15:24:33.742] [INFO] console - qwe@sdf.com
+[2016-03-05 15:24:52.456] [INFO] console - qwe@sdf.com
+[2016-03-05 15:25:12.072] [INFO] console - qwe@sdf.com
+[2016-03-05 15:25:31.536] [INFO] console - qwe@sdf.com
+[2016-03-05 15:25:50.646] [INFO] console - qwe@sdf.com
+[2016-03-05 15:25:58.699] [INFO] console - qwe@sdf.com
+[2016-03-05 15:26:15.075] [INFO] console - qwe@sdf.com
+[2016-03-05 15:27:50.034] [INFO] console - qwe@sdf.com
+[2016-03-05 15:28:02.076] [INFO] console - qwe@sdf.com
+[2016-03-05 15:29:01.176] [INFO] console - qwe@sdf.com
+[2016-03-05 15:31:03.675] [INFO] console - qwe@sdf.com
+[2016-03-05 15:36:51.830] [INFO] console - qwe@sdf.com
+[2016-03-05 15:38:06.551] [INFO] console - qwe@sdf.com
+[2016-03-05 15:39:04.083] [INFO] console - qwe@sdf.com
+[2016-03-05 15:39:12.084] [INFO] console - qwe@sdf.com
+[2016-03-05 15:39:40.691] [INFO] console - qwe@sdf.com
+[2016-03-05 15:39:46.859] [INFO] console - qwe@sdf.com
+[2016-03-05 15:40:48.127] [INFO] console - qwe@sdf.com
+[2016-03-05 15:45:32.701] [INFO] console - uria@gmail.com
+[2016-03-05 15:45:32.705] [INFO] console - new mail address
+[2016-03-05 15:45:54.939] [INFO] console - uria@gmail.com
+[2016-03-05 15:46:17.459] [INFO] console - req.body { email: 'uriamo@gmail.com', password: '1010' }
+[2016-03-05 15:47:10.045] [INFO] console - req.body { email: 'uria@gmail.com', password: '1010' }
+[2016-03-05 15:47:18.720] [INFO] console - req.body { email: 'uria@gmail.com', password: '1010' }
+[2016-03-05 15:47:54.977] [INFO] console - req.body { email: 'uriamo@gmail.com', password: '1010' }
+[2016-03-05 15:49:02.307] [INFO] console - found:  { email: 'uria@gmail.com',
+  name: 'uria mor',
+  password: '1010',
+  date: Sat Mar 05 2016 15:45:32 GMT+0200 (IST),
+  _id: 56dae2fc9d7b94e03a88b3b6 }
