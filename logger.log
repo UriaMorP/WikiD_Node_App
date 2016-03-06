@@ -79,3 +79,8 @@
   password: '1010',
   date: Sat Mar 05 2016 15:45:32 GMT+0200 (IST),
   _id: 56dae2fc9d7b94e03a88b3b6 }
+[2016-03-05 20:20:15.098] [INFO] console - found:  { email: 'uria@gmail.com',
+  name: 'uria mor',
+  password: '1010',
+  date: Sat Mar 05 2016 15:45:32 GMT+0200 (IST),
+  _id: 56dae2fc9d7b94e03a88b3b6 }

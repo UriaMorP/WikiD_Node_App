@@ -1,7 +1,5 @@
 .idea/workspace.xml
 node_modules/
 build/
-logger*
-npm*
 static/node_modules
 !/build/css
