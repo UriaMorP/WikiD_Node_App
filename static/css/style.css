@@ -51,3 +51,26 @@
 	margin-top: 100px;
 	margin-bottom: 20px;
 }
+
+.about_pr{
+	font-size: 18px;
+    font-weight: 700;
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 50px;
+}
+
+.cu_nav_label{
+	display: -webkit-inline-box;
+	padding: 5px 2px 0px 4px;
+	font-size: 17px;
+}
+
+.app{
+	border: 1px black solid;
+	margin: 13px;
+}
+
+.nav_app{
+	
+}

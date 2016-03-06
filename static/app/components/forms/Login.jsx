@@ -1,9 +1,8 @@
 "use strict";
 const React = require('react');
 let TextField = require('./TextField.jsx');
-const request = require('superagent');
-const superagentPromisePlugin = require('superagent-promise-plugin');
 let ErrorTag = require('../general/ErrorTag.jsx');
+let loginSend   = require('../../services/access').loginService;
 
 let LoginForm = React.createClass({
 	getInitialState:function(){
@@ -18,15 +17,15 @@ let LoginForm = React.createClass({
 		// console.log(this.refs);
 		let password = this.refs.password.refs.login_password.value;
 		let email = this.refs.email.refs.login_email.value;
-		request.post('/login').use(superagentPromisePlugin)
-		.send({"email":email, "password":password}).set('Accept', 'application/json').end()
-		.then((data)=>this.loginSuccess(data.text))
-		.catch((err)=>{
-			this.setState({
-				login_error:true,
-				login_error_message:err.message
+
+		loginSend(email, password)
+			.then((token) => document.cookie = "token="+token)
+			.catch((err)=>{
+				this.setState({
+					login_error:true,
+					login_error_message:err.message
+				})
 			})
-		});
     },
     render: function() {
 		let loginError = this.state.login_error ? <ErrorTag errStyle="inline_error" msg={this.state.login_error_message} />: null;

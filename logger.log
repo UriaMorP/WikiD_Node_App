@@ -84,3 +84,38 @@
   password: '1010',
   date: Sat Mar 05 2016 15:45:32 GMT+0200 (IST),
   _id: 56dae2fc9d7b94e03a88b3b6 }
+[2016-03-06 14:28:32.432] [INFO] console - found:  { email: 'uria@gmail.com',
+  name: 'uria mor',
+  password: '1010',
+  date: Sat Mar 05 2016 15:45:32 GMT+0200 (IST),
+  _id: 56dae2fc9d7b94e03a88b3b6 }
+[2016-03-06 14:30:14.860] [INFO] console - uriamo@gmail.com
+[2016-03-06 14:30:14.867] [INFO] console - new mail address
+[2016-03-06 14:31:02.181] [INFO] console - uriamo@gmail.com
+[2016-03-06 14:31:02.183] [INFO] console - new mail address
+[2016-03-06 14:31:47.764] [INFO] console - uriamo@gmail.com
+[2016-03-06 14:32:22.810] [INFO] console - uriamo@gmail.com
+[2016-03-06 14:32:22.811] [INFO] console - new mail address
+[2016-03-06 14:33:31.359] [INFO] console - uriamo@gmail.com
+[2016-03-06 14:33:31.363] [INFO] console - new mail address
+[2016-03-06 14:35:12.262] [INFO] console - uriamo1@gmail.com
+[2016-03-06 14:35:12.264] [INFO] console - new mail address
+[2016-03-06 14:36:39.673] [INFO] console - uriamo2@gmail.com
+[2016-03-06 14:36:39.674] [INFO] console - new mail address
+[2016-03-06 14:40:19.781] [INFO] console - uria1@gmail.com
+[2016-03-06 14:40:19.782] [INFO] console - new mail address
+[2016-03-06 14:40:19.795] [INFO] console - uria1@gmail.com
+[2016-03-06 14:42:01.119] [INFO] console - u@gmail.com
+[2016-03-06 14:42:01.121] [INFO] console - new mail address
+[2016-03-06 14:42:01.134] [INFO] console - found:  { email: 'u@gmail.com',
+  name: 'u',
+  password: '1010',
+  date: Sun Mar 06 2016 14:42:01 GMT+0200 (IST),
+  _id: 56dc2599f32c783739ca6798 }
+[2016-03-06 14:43:52.381] [INFO] console - qwe@gmail.com
+[2016-03-06 14:43:52.382] [INFO] console - new mail address
+[2016-03-06 14:43:52.393] [INFO] console - found:  { email: 'qwe@gmail.com',
+  name: 'wer',
+  password: '1010',
+  date: Sun Mar 06 2016 14:43:52 GMT+0200 (IST),
+  _id: 56dc2608f32c783739ca6799 }

@@ -8,8 +8,8 @@ let TextField = React.createClass({
         let class_name = "form-control"+this.props.setClass;
         return (
 			<div>
-			<div className={this.props.textStyle}>{this.props.textFieldName}</div>
-			<input type={style} ref={this.props.inputRef}  id={this.props.setId} value={this.props.value} onChange={this.props.update} className={class_name}/>
+    			<div className={this.props.textStyle}>{this.props.textFieldName}</div>
+    			<input type={style} ref={this.props.inputRef}  id={this.props.setId} value={this.props.value} onChange={this.props.update} className={class_name}/>
 			</div>
         );
     }

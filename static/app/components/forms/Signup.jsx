@@ -1,9 +1,12 @@
 "use strict";
-const React = require('react');
-let TextField = require('./TextField.jsx');
-const request = require('superagent');
-const superagentPromisePlugin = require('superagent-promise-plugin');
-let ErrorTag = require('../general/ErrorTag.jsx');
+const React     = require('react');
+let loginSend   = require('../../services/access').loginService;
+let signupSend   = require('../../services/access').signupService;
+
+/*eslint-disable*/
+let ErrorTag    = require('../general/ErrorTag.jsx');
+let TextField   = require('./TextField.jsx');
+/*eslint-enable*/
 
 let SignUpForm = React.createClass({
     getInitialState:function(){
@@ -26,25 +29,30 @@ let SignUpForm = React.createClass({
         let password = this.refs.password.refs.signup_password.value;
 		let email = this.refs.email.refs.signup_email.value;
         let name = this.refs.name.refs.signup_name.value;
-		request.post('/signup')
-		.send({"email":email, "password":password, "name": name}).set('Accept', 'application/json')
-        .end((err, res)=>{
-            if(err){
-    			this.setState({
-    				signup_error:true,
-    				signup_error_message:res.text
-    			})
-            } else{
-                this.loginSuccess(res.data.token)
-            }
-        })
 
+        signupSend(email, password, name)
+            .then((user)=>{
+                console.log("user", user);
+                loginSend(user.email,user.password)
+                    .then((token) => document.cookie = "token="+token)
+                    .catch((err)=>{
+        				this.setState({
+        					login_error:true,
+        					login_error_message:err.message
+        				})
+        			})
+            })
+            .catch((err) => {
+                this.setState({
+					login_error:true,
+					login_error_message:err.message
+				})
+            })
     },
     render: function() {
 		let signupError = this.state.signup_error ? <ErrorTag errStyle="inline_error" msg={this.state.signup_error_message} />: null;
         let matchPasswords = this.state.matchingPasswords ? null : <ErrorTag errStyle="inline_error" msg="passwords don't match"></ErrorTag>;
         return (
-			/*jshit ignore:start*/
 			<div>
 			<div className="form_title" > Signup </div>
 			<form >
@@ -59,7 +67,6 @@ let SignUpForm = React.createClass({
             </div>
     			{signupError}
 			</div>
-			/*jshit ignore:end*/
         );
     }
 })
